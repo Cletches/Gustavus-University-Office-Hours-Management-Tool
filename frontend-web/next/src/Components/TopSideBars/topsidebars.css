@@ -1,0 +1,111 @@
+.homepage{
+    display: flex;
+    overflow: hidden;
+    background-color: white;
+    
+}
+
+.topbar{
+    width: 100vw;
+    height: 70px;
+    top:0;
+    z-index: 2;
+    display: flex;
+    position: fixed;
+    background-color: white;
+}
+.next-logo-div{
+    width: 20%;
+    height: 60px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.next-logo{
+    height: 60px;
+}
+
+.greet-div{
+    width: 60%;
+    margin: auto;
+}
+
+.notification{
+    width: 20%;
+    height: 60px;
+    margin-right: 5px;
+    top: 1%;
+    right: 1%;
+}
+
+.sidebar{
+    background: none;
+    width: 55px;
+    height: 100vh;
+    top: 0;
+    z-index: 2;
+    padding-left: 10px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .sidebar{
+        width: 100vw;
+        bottom: 0;
+        padding-left: 0%;
+        padding-right: 20px;
+        background-color: white;
+        height: 10%;
+        top: unset
+    }
+
+    ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .icons{
+        margin: auto;
+    }
+
+    .sidebar-item{
+        margin-left: 35px;
+    }
+  }
+
+.icons{
+    display: flex;
+}
+
+.sidebar-item{
+    width: 40px;
+    padding-left: 0;
+}
+
+.sidebar-icon{
+    border-radius: 50%;
+}
+
+.sidebar-icon:hover{
+    box-shadow: 2px 2px 5px 2px rgb(175, 171, 171);
+
+}
+
+ul {
+    padding-left: 0;
+
+}
+
+li {
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+}
+
+.toppage{
+    margin-top: 8%;
+    justify-content: center;
+}

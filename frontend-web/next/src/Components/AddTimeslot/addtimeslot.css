@@ -1,0 +1,26 @@
+#addtimeslot-page{
+    min-height: 100vh;
+    display: flex;
+}
+
+#timeslot-form{
+    background-color: white;
+    width: 350px;
+    margin: auto;
+    padding: 40px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  box-shadow: 0px 0px 10px 0px rgba(39, 177, 223, 0.2);
+}
+
+label {
+    display: flex;
+    padding-left: 0;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.time{
+    width: 150px;
+    margin: auto;
+    margin-top: 2%;
+}
